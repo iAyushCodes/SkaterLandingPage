@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkaterAI</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div id="main" class="flex flex-col bg-blue-50 h-screen w-screen">
+        <div>
+        <nav class="bg-blue-700 flex justify-between m-6 sm:mx-10 md:mx-12 lg:mx-20 p-4 sm:px-32 rounded-3xl text-white shadow-2xl">
+            <div class="flex gap-2">
+                <img src="./assets/asset_0.png" alt="SkaterAI Logo" width="30px" height="30px">
+                <p class="text-white text-lg">Skater</p>
+            </div>
+            <button id="nav-btn" class="cursor-pointer">Join Waitlist</button>
+        </nav>
+        </div>  
+        <div id="hero" class="flex flex-col justify-center items-center mt-16">
+            <p class="text-base text-blue-400 bg-blue-100 px-3 py-1 rounded-2xl">Coming Soon 🚀</p>
+            <p class="mt-16 text-black text-3xl sm:text-4xl md:text-6xl font-bold"><span class="text-blue-700">Donotpay </span>For Backend</p>
+            <p class="text-black font-bold text-3xl sm:text-4xl md:text-6xl">Infrastructure</p>
+            <p class="text-gray-500 mt-8 text-xl font-light tracking-wider text-center px-1">It analyzes your backend infrastructure and automatically</p>
+            <p class="text-gray-500 text-xl font-light tracking-wider">optimizes it to save you money</p>
+        </div>
+        <div id="waitlist" class="flex justify-center mt-14 pb-3 gap-3">
+            <input type="email" id="waitlist-input" required placeholder="Enter your email" class="p-3 rounded-xl bg-gray-50 text-center text-sm text-gray-900 border border-blue-300 focus:outline-none">
+            <button id="waitlist-btn" type="submit" class="bg-blue-500 px-5 rounded-xl text-white cursor-pointer transition delay-75 duration-150 ease-in-out hover:bg-blue-700">Join Waitlist</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
