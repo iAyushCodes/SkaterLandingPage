@@ -38,7 +38,7 @@ waitlistBtn.addEventListener("click", function() {
 })
 
 navBtn.addEventListener("click", function() {
-    waitlist.focus();
+    waitlistInput.focus();
     if(window.innerWidth >= 768){
         waitlistInput.style.boxShadow = '0 0 5px 4px rgba(0, 123, 255, 0.3)';
     }
